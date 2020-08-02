@@ -1,7 +1,7 @@
 # Marlin-2.0.x-07-30-2020-bug-fix
  iDJMic updates for CR-10 with MODS
 
-I'm new to the Firmware editing but learning as I go as brought me here with a working compiled firmware.  As updates come and changes to the setup so do the bugs. If you have a similar setup hopefuly this will help you with yours.
+I'm new to the Firmware editing but learning as I go, it has brought me to here with a working compiled firmware.  As updates come and changes to the setup so do the bugs. If you have a similar setup hopefuly this will help you with yours.
 
 YouTube Channel :
 https://www.youtube.com/idjmic
