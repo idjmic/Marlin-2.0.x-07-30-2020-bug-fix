@@ -763,14 +763,14 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 95 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 85, 85, 400, 95 } // * Had to change from 80 to 85 to get bed center maybe from SKR mini e3 v1.2 board upgrade idk *
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 2500, 2500, 100, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 2500, 2500, 30, 25 } // * Had to adjust Z to 30 for DUAL Z-AXIS Motors Mod *
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
